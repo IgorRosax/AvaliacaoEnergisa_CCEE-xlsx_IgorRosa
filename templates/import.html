@@ -1,0 +1,16 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+InfoMercado Dados Individuais - Importação
+{% endblock %}
+
+{% block main %}
+
+<form action="/import" method="POST">
+    <p>Clique em importar para fazer o Download de dados da CCEE:</p>
+    <br>
+    <button type="submit">Importar</button>
+</form>
+
+{% endblock %}
